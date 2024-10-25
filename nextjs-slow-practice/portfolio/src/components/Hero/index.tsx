@@ -4,7 +4,8 @@ const Hero = () => {
     return (
         <div>
             <div
-                className="bg-proHighlight h-80 flex p-5"
+                // className="bg-proHighlight h-80 flex p-5"
+                className="bg-proHighlight h-screen flex p-5"
             >
                 <h1
                     className="text-3xl"

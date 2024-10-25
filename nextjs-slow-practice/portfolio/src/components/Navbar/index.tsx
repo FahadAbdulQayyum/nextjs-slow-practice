@@ -5,13 +5,14 @@ import React from 'react'
 const Navbar = () => {
     return (
         <div
-            className="bg-proPrimary flex justify-between items-center"
+            className="bg-proPrimary flex justify-between items-center px-5"
         >
             <div
                 className="h-20 overflow-hidden"
             >
                 <Image src={'/assets/images/f-logo.png'} width={200} height={200}
-                    className="relative -left-10 -top-5"
+                    // className="relative -left-10 -top-5"
+                    className="relative -left-16 -top-5"
                 />
             </div>
             <div
@@ -22,7 +23,7 @@ const Navbar = () => {
                 <Link href="/">Contact Us</Link>
                 <Link href="/">Services</Link>
             </div>
-            <div></div>
+            {/* <div></div> */}
         </div>
     )
 }
