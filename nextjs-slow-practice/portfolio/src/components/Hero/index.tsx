@@ -23,8 +23,8 @@ const Hero = () => {
                     >Connect</button>
                 </div>
                 <div>
-                    {/* <Image src="/assets/images/profile.avif" height={100} width={100} /> */}
-                    <Image src="/assets/images/prof.png" height={400} width={400} />
+                    {/* <Image src="/assets/images/profile.avif" alt="profile" height={100} width={100} /> */}
+                    <Image src="/assets/images/prof.png" alt="profile" height={400} width={400} />
                 </div>
             </div>
             <span
