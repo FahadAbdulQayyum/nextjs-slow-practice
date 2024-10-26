@@ -35,12 +35,14 @@ const services = [
 const Practice = () => {
     return (
         <section
-            className="bg-proPrimary px-lg"
+            className="bg-proPrimary"
         >
-            <div>
+            <div
+                className="flex justify-center"
+            >
                 <div className="flex justify-center object-center flex-col gap-12 sm:gap-16">
                     <div
-                        className="flex space-x-8 py-5"
+                        className="flex space-x-36 py-5"
                     >
                         {
                             services.map(({ name, Icon, description, classs }) => (
@@ -51,7 +53,6 @@ const Practice = () => {
                                     <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                         {/* Front face with image */}
                                         <div
-                                            // className="absolute inset-0 h-full w-full rounded-xl [backface-visibility:hidden] bg-proPrimary flex justify-center items-center"
                                             className="absolute inset-0 h-full w-full rounded-xl [backface-visibility:hidden] bg-primary text-proPrimary flex justify-center items-center"
                                         >
                                             {Icon && (
@@ -59,7 +60,7 @@ const Practice = () => {
                                             )}
                                         </div>
                                         {/* Back face with text */}
-                                        <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
+                                        <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
                                             <div className="flex min-h-full flex-col items-center justify-center">
                                                 <h2 className="text-2xl font-bold mb-4">
                                                     {name}
@@ -68,7 +69,6 @@ const Practice = () => {
                                                     {description}
                                                 </p>
                                                 <a href="tel:+923232846250" className="inline-flex">
-                                                    {/* <button className="my-2 bg-yellow-800 hover:bg-btnColor text-white font-bold py-2 px-4 w-auto rounded-full inline-flex items-center"> */}
                                                     <button className="my-2 bg-btnColor text-white font-bold py-2 px-4 w-auto rounded-full inline-flex items-center">
                                                         <span>Schedule Service</span>
                                                         {/* <WrenchScrewdriverIcon className="h-6 w-6 ml-2" /> */}
