@@ -1,52 +1,38 @@
 import React from "react";
-// import {
-//     LightBulbIcon,
-//     WrenchScrewdriverIcon,
-// } from "@heroicons/react/20/solid";
-import Image from "next/image";
 import { FaComputer } from "react-icons/fa6";
 
 const services = [
     {
         step: "01",
-        name: "Diagnostics",
+        name: "Web Developer",
         imageUrl:
             "FaComputer",
-        // imageUrl:
-        //     "https://images.unsplash.com/photo-1632733711679-529326f6db12?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         description:
-            "State-of-the-art diagnostics to accurately identify vehicle issues.",
+            "I build well-designed and developed website.",
     },
     {
         step: "02",
-        name: "Repairs",
+        name: "Software Developer",
         imageUrl:
-            "https://images.unsplash.com/photo-1687462970787-61d953508926?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "FaComputer",
         description:
-            " Engine overhauls to brake replacements, we ensure high-quality work for your vehicle’s longevity.",
+            "I build quality software application using ReactJs.",
     },
     {
         step: "03",
-        name: "Maintenance",
+        name: "Graphic Designer",
         imageUrl:
-            "https://images.unsplash.com/photo-1635437536607-b8572f443763?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "FaComputer",
         description:
-            " Oil changes, tire rotations, and more to enhance performance and prevent future issues.",
+            "I personally love to explore the nature of beautify and experience.",
     },
 ];
 
 const Practice = () => {
     return (
-        <section
-        // className="py-16 mx-auto sm:py-20"
-        >
-            <div
-            // className="mx-auto flex justify-center object-center  px-4 py-16  sm:py-24 lg:max-w-7xl "
-            >
+        <section>
+            <div>
                 <div className="flex justify-center object-center flex-col gap-12 sm:gap-16">
-                    {/* <h2 className="text-4xl font-semibold tracking-tight  text-gray-950  sm:text-5xl lg:text-6xl">
-                        Services
-                    </h2> */}
                     <div className=" mx-auto grid gap-12 space-y-10 md:space-y-0 sm:gap-16 lg:grid-cols-3">
                         {services.map((service) => (
                             <div
