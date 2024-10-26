@@ -37,34 +37,28 @@ const services = [
 
 const Practice = () => {
     return (
-        <section>
+        <section
+            className="px-lg"
+        >
             <div>
                 <div className="flex justify-center object-center flex-col gap-12 sm:gap-16">
-                    <div className=" mx-auto grid gap-12 space-y-10 md:space-y-0 sm:gap-16 lg:grid-cols-3">
-                        {/* {services.map((service) => ( */}
+                    <div
+                        // className=" mx-auto grid gap-12 space-y-10 md:space-y-0 sm:gap-16 lg:grid-cols-3"
+                        // className=" mx-auto grid space-x-5 md:space-y-0 lg:grid-cols-3"
+                        className="mx-auto flex space-x-5"
+                    >
                         {
                             services.map(({ name, Icon, description, classs }) => (
                                 <div
                                     key={name}
-                                    className="group h-96 w-96  [perspective:1000px]"
+                                    className="group h-96 w-96 [perspective:1000px]"
                                 >
                                     <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                         {/* Front face with image */}
                                         <div className="absolute inset-0 h-full w-full rounded-xl [backface-visibility:hidden] bg-proPrimary flex justify-center items-center">
                                             {Icon && (
-                                                // <Image
-                                                //     className="object-cover cursor-pointer object-left h-full w-full rounded-xl"
-                                                //     src={service.imageUrl}
-                                                //     alt={service.name}
-                                                //     width={320}
-                                                //     height={320}
-                                                // />
-                                                // <Icon className="text-9xl" />
                                                 <Icon className={classs} />
-                                                // <Icon />
-                                                // service.imageUrl === 'FaComputer' && <FaLaptopCode className="text-9xl" />
                                             )}
-                                            {/* <p className=" md:my-6 text-2xl">{service.name}</p> */}
                                         </div>
                                         {/* Back face with text */}
                                         <div className="absolute inset-0 h-full w-full rounded-xl bg-black/80 px-12 text-center text-slate-200 [transform:rotateY(180deg)] [backface-visibility:hidden]">
@@ -75,7 +69,7 @@ const Practice = () => {
                                                 <p className="text-lg text-pretty text-center mb-4 ">
                                                     {description}
                                                 </p>
-                                                <a href="tel:555-555-5555" className="inline-flex">
+                                                <a href="tel:+923232846250" className="inline-flex">
                                                     <button className="my-2 bg-yellow-800 hover:bg-yellow-700 text-white font-bold py-2 px-4 w-auto rounded-full inline-flex items-center">
                                                         <span>Schedule Service</span>
                                                         {/* <WrenchScrewdriverIcon className="h-6 w-6 ml-2" /> */}
