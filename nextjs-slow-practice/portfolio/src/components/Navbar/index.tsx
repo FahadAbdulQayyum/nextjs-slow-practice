@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-const Navbar = () => {
+const Navbar: any = () => {
     return (
         <div
             className="bg-primary text-proPrimary flex justify-between items-center px-lg"
