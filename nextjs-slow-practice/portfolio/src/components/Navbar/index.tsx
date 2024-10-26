@@ -1,11 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
 
 const Navbar = () => {
     return (
         <div
-            // className="bg-proPrimary flex justify-between items-center px-5"
             className="bg-primary text-proPrimary flex justify-between items-center px-lg"
         >
             <div
@@ -19,12 +17,11 @@ const Navbar = () => {
             <div
                 className="space-x-8"
             >
-                <Link href="/">Home</Link>
-                <Link href="/">About Us</Link>
-                <Link href="/">Contact Us</Link>
-                <Link href="/">Services</Link>
+                <Link href="/Home">Home</Link>
+                <Link href="/About">About Us</Link>
+                <Link href="/Contact">Contact Us</Link>
+                <Link href="/Services">Services</Link>
             </div>
-            {/* <div></div> */}
         </div>
     )
 }

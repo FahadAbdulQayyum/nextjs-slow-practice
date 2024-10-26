@@ -23,7 +23,6 @@ const Hero = () => {
                     >Connect</button>
                 </div>
                 <div>
-                    {/* <Image src="/assets/images/profile.avif" alt="profile" height={100} width={100} /> */}
                     <Image src="/assets/images/prof.png" alt="profile" height={400} width={400} />
                 </div>
             </div>
@@ -51,48 +50,3 @@ const Hero = () => {
 }
 
 export default Hero
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from 'react'
-
-// const Hero = () => {
-//     return (
-//         <div>
-//             <div
-//                 // className="bg-proHighlight h-80 flex p-5"
-//                 className="bg-primary h-screen flex p-5"
-//             // className="bg-proHighlight h-screen flex p-5"
-//             >
-//                 <h1
-//                     className="text-3xl text-proPrimary"
-//                 >Get Your Quality Product Built Here For
-//                     <span
-//                         className='bg-proPrimary text-primary'
-//                         // className='text-primary'
-//                         style={{
-//                             clipPath: 'polygon(0 10%, 100% -10%, 100% 94%, 0 100%)',
-//                             // clipPath: 'polygon(0 59%, 100% 48%, 100% 84%, 0 94%)',
-//                         }}
-//                     >
-//                         Better Future
-//                     </span>
-//                     Business.</h1>
-//             </div>
-//         </div>
-//     )
-// }
-
-// export default Hero
