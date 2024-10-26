@@ -38,24 +38,25 @@ const services = [
 const Practice = () => {
     return (
         <section
-            className="px-lg"
+            className="bg-proPrimary px-lg"
         >
             <div>
                 <div className="flex justify-center object-center flex-col gap-12 sm:gap-16">
                     <div
-                        // className=" mx-auto grid gap-12 space-y-10 md:space-y-0 sm:gap-16 lg:grid-cols-3"
-                        // className=" mx-auto grid space-x-5 md:space-y-0 lg:grid-cols-3"
-                        className="mx-auto flex space-x-5"
+                        className="flex space-x-8 py-5"
                     >
                         {
                             services.map(({ name, Icon, description, classs }) => (
                                 <div
                                     key={name}
-                                    className="group h-96 w-96 [perspective:1000px]"
+                                    className="group h-60 w-96 [perspective:1000px]"
                                 >
                                     <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-500 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
                                         {/* Front face with image */}
-                                        <div className="absolute inset-0 h-full w-full rounded-xl [backface-visibility:hidden] bg-proPrimary flex justify-center items-center">
+                                        <div
+                                            // className="absolute inset-0 h-full w-full rounded-xl [backface-visibility:hidden] bg-proPrimary flex justify-center items-center"
+                                            className="absolute inset-0 h-full w-full rounded-xl [backface-visibility:hidden] bg-primary text-proPrimary flex justify-center items-center"
+                                        >
                                             {Icon && (
                                                 <Icon className={classs} />
                                             )}
@@ -70,7 +71,8 @@ const Practice = () => {
                                                     {description}
                                                 </p>
                                                 <a href="tel:+923232846250" className="inline-flex">
-                                                    <button className="my-2 bg-yellow-800 hover:bg-yellow-700 text-white font-bold py-2 px-4 w-auto rounded-full inline-flex items-center">
+                                                    {/* <button className="my-2 bg-yellow-800 hover:bg-btnColor text-white font-bold py-2 px-4 w-auto rounded-full inline-flex items-center"> */}
+                                                    <button className="my-2 bg-btnColor text-white font-bold py-2 px-4 w-auto rounded-full inline-flex items-center">
                                                         <span>Schedule Service</span>
                                                         {/* <WrenchScrewdriverIcon className="h-6 w-6 ml-2" /> */}
                                                     </button>

@@ -11,9 +11,7 @@ const Navbar = () => {
             <div
                 className="h-20 overflow-hidden"
             >
-                {/* <Image src={'/assets/images/f-logo.png'} width={200} height={200} */}
                 <Image src={'/assets/images/f-logo0.png'} width={150} height={150}
-                    // className="relative -left-10 -top-5"
                     className="relative -left-12 -top-6"
                     alt="logo"
                 />

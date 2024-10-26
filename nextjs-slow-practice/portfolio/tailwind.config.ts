@@ -19,7 +19,8 @@ const config: Config = {
         primary:"#F3F3E0",
         secondary:"#133E87",
         tertiary:"#608BC1",
-        light:"#CBDCEB"
+        light:"#CBDCEB",
+        btnColor:"#854d0e"
       },
       spacing: {
         "2xs": "4px",
