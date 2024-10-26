@@ -1,14 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
-import { BsLinkedin } from 'react-icons/bs'
-import { CiLinkedin } from 'react-icons/ci'
-import { DiGithub } from 'react-icons/di'
-import { FaBeer } from 'react-icons/fa'
-import { FaLinkedin } from 'react-icons/fa6'
-import { FiGithub } from 'react-icons/fi'
 import { GrGithub } from 'react-icons/gr'
 import { ImFacebook } from 'react-icons/im'
-import { LiaLinkedin } from 'react-icons/lia'
+import { LiaLinkedinIn } from 'react-icons/lia'
 
 const Hero = () => {
     return (
@@ -34,22 +28,22 @@ const Hero = () => {
                 </div>
             </div>
             <span
-                className="flex space-x-2"
+                className="flex space-x-2 pb-5"
             >
                 <div
                     className="border border-proPrimary rounded-full h-8 w-8 flex justify-center items-center overflow-hidden"
                 >
-                    <GrGithub className='text-proPrimary text-3xl hover:scale-75 duration-500 hover:cursor-pointer' />
+                    <GrGithub className='text-proPrimary text-2xl hover:scale-75 duration-500 hover:cursor-pointer' />
                 </div>
                 <div
                     className="border border-proPrimary rounded-full h-8 w-8 flex justify-center items-center overflow-hidden"
                 >
-                    <BsLinkedin className='bg-proPrimary text-3xl hover:scale-75 duration-500 hover:cursor-pointer' />
+                    <LiaLinkedinIn className='text-proPrimary text-2xl hover:scale-75 duration-500 hover:cursor-pointer' />
                 </div>
                 <div
                     className="border border-proPrimary rounded-full h-8 w-8 flex justify-center items-center overflow-hidden"
                 >
-                    <ImFacebook className='text-proPrimary text-3xl hover:scale-75 duration-500 hover:cursor-pointer' />
+                    <ImFacebook className='text-proPrimary text-2xl hover:scale-75 duration-500 hover:cursor-pointer' />
                 </div>
             </span>
         </div>

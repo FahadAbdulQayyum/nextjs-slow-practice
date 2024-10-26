@@ -19,3 +19,16 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.info {
+  /* visibility: collapse; */
+  /* visibility: hidden; */
+  display: none;
+}
+
+.upInfo:hover .info {
+  /* visibility: visible; */
+  display: block;
+  transition: all 15s ease-in-out;
+  animation-delay: 5s;
+}
