@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import Services from '@/components/Services'
+import Footer from '@/components/Footer'
 
 const Page = () => {
   return (
@@ -8,6 +9,7 @@ const Page = () => {
       <Navbar />
       <Hero />
       <Services />
+      <Footer />
     </div>
   )
 }

@@ -11,7 +11,7 @@ const Hero = () => {
                 className="hero"
             >
                 <div
-                    className=""
+                    className="info"
                 >
                     <h1>Hi,</h1>
                     <h1>I&apos;m <span
@@ -33,21 +33,21 @@ const Hero = () => {
                     className=""
                 >
                     <a href="https://github.com/FahadAbdulQayyum" target='_blank'>
-                        <GrGithub className='' />
+                        <GrGithub className='icon' />
                     </a>
                 </div>
                 <div
                     className=""
                 >
                     <a href="https://linkedin.com/in/fahad-abdul-qayyum-bb11a3243" target='_blank'>
-                        <LiaLinkedinIn className='' />
+                        <LiaLinkedinIn className='icon' />
                     </a>
                 </div>
                 <div
                     className=""
                 >
                     <a href="https://facebook.com/profile.php?id=100042010622200" target='_blank'>
-                        <ImFacebook className='' />
+                        <ImFacebook className='icon' />
                     </a>
                 </div>
             </span>
