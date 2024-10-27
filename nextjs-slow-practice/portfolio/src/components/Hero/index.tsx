@@ -14,7 +14,7 @@ const Hero = () => {
                     className="text-6xl text-black"
                 >
                     <h1>Hi,</h1>
-                    <h1>I'm <span
+                    <h1>I&apos;m <span
                         className="text-proPrimary"
                     >Fahad</span></h1>
                     <h1>Web Developer</h1>
@@ -32,17 +32,23 @@ const Hero = () => {
                 <div
                     className="border border-proPrimary rounded-full h-8 w-8 flex justify-center items-center overflow-hidden"
                 >
-                    <GrGithub className='text-proPrimary text-2xl hover:scale-75 duration-500 hover:cursor-pointer' />
+                    <a href="https://github.com/FahadAbdulQayyum" target='_blank'>
+                        <GrGithub className='text-proPrimary text-2xl hover:scale-75 duration-500 hover:cursor-pointer' />
+                    </a>
                 </div>
                 <div
                     className="border border-proPrimary rounded-full h-8 w-8 flex justify-center items-center overflow-hidden"
                 >
-                    <LiaLinkedinIn className='text-proPrimary text-2xl hover:scale-75 duration-500 hover:cursor-pointer' />
+                    <a href="https://linkedin.com/in/fahad-abdul-qayyum-bb11a3243" target='_blank'>
+                        <LiaLinkedinIn className='text-proPrimary text-2xl hover:scale-75 duration-500 hover:cursor-pointer' />
+                    </a>
                 </div>
                 <div
                     className="border border-proPrimary rounded-full h-8 w-8 flex justify-center items-center overflow-hidden"
                 >
-                    <ImFacebook className='text-proPrimary text-2xl hover:scale-75 duration-500 hover:cursor-pointer' />
+                    <a href="https://facebook.com/profile.php?id=100042010622200" target='_blank'>
+                        <ImFacebook className='text-proPrimary text-2xl hover:scale-75 duration-500 hover:cursor-pointer' />
+                    </a>
                 </div>
             </span>
         </div>
