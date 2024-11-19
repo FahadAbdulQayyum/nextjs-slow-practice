@@ -2,10 +2,17 @@ import React from 'react'
 
 const Navbar = () => {
     return (
-        <div>
+        <div
+            className="flex px-standard justify-between bg-primary text-black py-2"
+        >
             <div>Logo</div>
-            <div>
-                <ul>
+            <div
+                className="flex bg-gray-50"
+            >
+                <ul
+                    className="flex space-x-2"
+                // className="flex justify-between"
+                >
                     <li>Home</li>
                     <li>Courses</li>
                     <li>Services</li>
@@ -14,9 +21,15 @@ const Navbar = () => {
                     <li>Testominial</li>
                 </ul>
             </div>
-            <div>
-                <button>Login</button>
-                <button>Sign Up</button>
+            <div
+                className="space-x-3"
+            >
+                <button
+                    className="border border-gray-400 rounded-lg text-black px-4 py-2"
+                >Login</button>
+                <button
+                    className="border rounded-lg bg-black text-white px-4 py-2"
+                >Sign Up</button>
             </div>
         </div >
     )
