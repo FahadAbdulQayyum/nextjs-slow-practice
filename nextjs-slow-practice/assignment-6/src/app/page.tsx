@@ -6,7 +6,7 @@ const Page = () => {
   return (
     <div>
       <span
-        className="flex flex-col text-lg"
+        className="flex flex-col text-base"
       >
         <UpperNav />
         <Navbar />
