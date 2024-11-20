@@ -11,7 +11,10 @@ export default {
       colors: {
         primary: "#e5e7eb",
         // primary: "#F7F7F7",
-        secondary: "#676767",
+        // secondary: "#676767",
+        // secondary: "#94a3b8",
+        secondary: "#f3f4f6",
+        // secondary: "#e5e7eb",
       },
       spacing: {
         'standard': '10px',
