@@ -24,7 +24,8 @@ const Navbar = () => {
                 >
                     <ul
                         // className="flex space-x-16 items-center bg-white px-5"
-                        className="flex space-x-14 items-center bg-white py-1"
+                        // className="flex space-x-14 items-center bg-white py-0"
+                        className="flex space-x-14 items-center bg-white"
                     // className="flex justify-between"
                     >
                         <li
