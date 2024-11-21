@@ -7,14 +7,14 @@ import { FiTwitter } from 'react-icons/fi'
 const UpperNav = () => {
     return (
         <div
-            className="flex justify-between items-center px-standard bg-primary text-black mb-5 border border-b-2 border-black"
+            className="flex justify-between items-center px-standard bg-primary text-black mb-5 border border-b-2 border-black py-2"
         >
             <div
                 className="flex"
             >
                 <span>Phone Number: 956 742 455 678</span>
                 <span
-
+                    className="border border-gray-400 mx-3"
                 ></span>
                 <span>Email: info@ddsgnr.com</span>
             </div>

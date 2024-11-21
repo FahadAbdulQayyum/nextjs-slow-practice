@@ -31,51 +31,58 @@ const Navbar = () => {
                             // className="border border-b-2"
                             // className="hover:border-b-secondary hover:border-b-4 pb-1 mt-1 hover:mt-2 px-3"
                             // className="hover:border-b-secondary hover:border-b-4 pb-2 mt-3 hover:mt-3 px-3"
-                            className="hover:border-b-gray-400 hover:border-b-4 pb-1 hover:-mb-2 hover:pb-2 px-3"
+                            className="hover:border-b-gray-400 hover:border-b-4 -pb-1 hover:-mb-2 hover:pb-2 px-4 py-[2px]"
+                        // className="hover:border-b-gray-400 hover:border-b-4 pb-1 hover:-mb-2 hover:pb-2 px-3"
                         >Home</li>
                         <li
                             // className="border border-b-2"
                             // className="hover:border-b-secondary hover:border-b-4 pb-1 mt-1 hover:mt-2 px-3"
                             // className="hover:border-b-secondary hover:border-b-4 pb-2 mt-3 hover:mt-3 px-3"
-                            className="hover:border-b-gray-400 hover:border-b-4 pb-1 hover:-mb-2 hover:pb-2 px-3"
+                            className="hover:border-b-gray-400 hover:border-b-4 -pb-1 hover:-mb-2 hover:pb-2 px-4 py-[2px]"
+                        // className="hover:border-b-gray-400 hover:border-b-4 pb-1 hover:-mb-2 hover:pb-2 px-3"
+
                         >Courses</li>
                         <li
                             // className="border border-b-2"
                             // className="hover:border-b-secondary hover:border-b-4 pb-1 mt-1 hover:mt-2 px-3"
                             // className="hover:border-b-secondary hover:border-b-4 pb-2 mt-3 hover:mt-3 px-3"
-                            className="hover:border-b-gray-400 hover:border-b-4 pb-1 hover:-mb-2 hover:pb-2 px-3"
+                            className="hover:border-b-gray-400 hover:border-b-4 -pb-1 hover:-mb-2 hover:pb-2 px-4 py-[2px]"
+                        // className="hover:border-b-gray-400 hover:border-b-4 pb-1 hover:-mb-2 hover:pb-2 px-3"
                         >Services</li>
                         <li
                             // className="border border-b-2"
                             // className="hover:border-b-secondary hover:border-b-4 pb-1 mt-1 hover:mt-2 px-3"
                             // className="hover:border-b-secondary hover:border-b-4 pb-2 mt-3 hover:mt-3 px-3"
-                            className="hover:border-b-gray-400 hover:border-b-4 pb-1 hover:-mb-2 hover:pb-2 px-3"
+                            className="hover:border-b-gray-400 hover:border-b-4 -pb-1 hover:-mb-2 hover:pb-2 px-4 py-[2px]"
+                        // className="hover:border-b-gray-400 hover:border-b-4 pb-1 hover:-mb-2 hover:pb-2 px-3"
                         >Achievement</li>
                         <li
                             // className="hover:border-b-secondary hover:border-b-4 pb-1 mt-1 hover:mt-2 px-3"
                             // className="hover:border-b-secondary hover:border-b-4 pb-2 mt-3 hover:mt-3 px-3"
-                            className="hover:border-b-gray-400 hover:border-b-4 pb-1 hover:-mb-2 hover:pb-2 px-3"
+                            className="hover:border-b-gray-400 hover:border-b-4 -pb-1 hover:-mb-2 hover:pb-2 px-4 py-[2px]"
+                        // className="hover:border-b-gray-400 hover:border-b-4 pb-1 hover:-mb-2 hover:pb-2 px-3"
                         >About Us</li>
                         <li
                             // className="hover:border-b-secondary hover:border-b-4 pb-1 mt-1 hover:mt-2 px-3"
                             // className="hover:border-b-secondary hover:border-b-4 pb-2 mt-3 hover:mt-3 px-3"
-                            className="hover:border-b-gray-400 hover:border-b-4 pb-1 hover:-mb-2 hover:pb-2 px-3"
+                            className="hover:border-b-gray-400 hover:border-b-4 -pb-1 hover:-mb-2 hover:pb-2 px-4 py-[2px]"
+                        // className="hover:border-b-gray-400 hover:border-b-4 pb-1 hover:-mb-2 hover:pb-2 px-3"
                         >Testominial</li>
                         <li
                             className="space-x-3"
                         >
                             <button
-                                className="border border-gray-400 rounded-lg text-black px-4 py-1"
+                                className="border border-gray-400 rounded-lg text-black px-4 py-2"
                             >Login</button>
                             <button
-                                className="border-secondary rounded-lg bg-black text-white px-4 py-1"
+                                className="border-secondary rounded-lg bg-black text-white px-4 py-2"
                             >Sign Up</button>
                         </li>
                     </ul>
                 </div>
 
             </div>
-        </div >
+        </div>
     )
 }
 
