@@ -50,7 +50,6 @@ const Testimonial = () => {
         // <div className="flex justify-center items-center px-4">
         <div className="flex flex-col ">
             <span
-                // className="flex flex-col justify-center items-center"
                 className="flex flex-col justify-start items-start"
             >
                 <h1
