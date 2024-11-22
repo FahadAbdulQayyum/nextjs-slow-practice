@@ -20,6 +20,9 @@ export default {
         'standard': '10px',
       },
     },
+    fontFamily: {
+      roboto: ['Roboto', 'sans-serif'], // Add the Roboto font family
+    },
   },
   plugins: [],
 } satisfies Config;
