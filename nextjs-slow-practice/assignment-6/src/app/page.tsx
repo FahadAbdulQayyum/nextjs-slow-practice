@@ -1,4 +1,5 @@
 import Affiliation from '@/components/Affiliation'
+import CTA from '@/components/CTA'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import UpperNav from '@/components/UpperNav'
@@ -14,6 +15,7 @@ const Page = () => {
         <Navbar />
         <Hero />
         <Affiliation />
+        <CTA />
       </span>
     </div>
   )

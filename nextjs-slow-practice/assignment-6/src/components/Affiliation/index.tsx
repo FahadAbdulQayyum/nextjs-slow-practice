@@ -11,19 +11,16 @@ import Image from "next/image"
 const Affiliation = () => {
     const carouselImages = ["carousel1.svg", "carousel2.svg", "carousel3.svg", "carousel5.svg", "carousel6.svg", "carousel7.svg"];
     return (
-        <div>
+        <div className="flex justify-center items-center px-4">
             <div>
-                <h1>Trusted by 2000+ companies worldwide.</h1>
+                <h1 className="text-[20px] font-bold">Trusted by 2000+ companies worldwide.</h1>
             </div>
             <div className="w-full flex justify-center items-center">
                 <Carousel
                     opts={{
                         align: "start",
                     }}
-                    // className="w-full max-w-sm"
-                    // className="w-full max-w-lg"
                     // className="w-[100%] max-w-sm"
-                    // className="h-10 w-[100%]"
                     className="w-[80%]"
                 >
                     <CarouselContent
@@ -46,7 +43,7 @@ const Affiliation = () => {
                     <CarouselNext />
                 </Carousel>
             </div>
-        </div >
+        </div>
     )
 }
 
