@@ -65,6 +65,7 @@ const Testimonial = () => {
                     opts={{
                         align: "start",
                     }}
+                    // className="w-[100%] max-w-sm"
                     className="w-[80%]"
                 >
                     <CarouselContent
