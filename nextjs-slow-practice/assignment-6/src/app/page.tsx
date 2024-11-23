@@ -1,3 +1,4 @@
+import Affiliation from '@/components/Affiliation'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import UpperNav from '@/components/UpperNav'
@@ -12,6 +13,7 @@ const Page = () => {
         <UpperNav />
         <Navbar />
         <Hero />
+        <Affiliation />
       </span>
     </div>
   )

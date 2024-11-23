@@ -18,7 +18,7 @@ const Hero = () => {
                     className="space-x-2"
                 >
                     <button
-                        className="bg-black p-2 rounded-lg"
+                        className="bg-black text-white p-2 rounded-lg"
                     >Start learning now</button>
                     <button
                         className="border border-black bg-white text-black p-2 rounded-lg"
