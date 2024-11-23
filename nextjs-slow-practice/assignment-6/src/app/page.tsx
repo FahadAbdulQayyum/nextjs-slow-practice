@@ -1,5 +1,7 @@
+import Achievement from '@/components/Achievement'
 import Affiliation from '@/components/Affiliation'
 import CTA from '@/components/CTA'
+import Courses from '@/components/Courses'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import UpperNav from '@/components/UpperNav'
@@ -16,6 +18,8 @@ const Page = () => {
         <Hero />
         <Affiliation />
         <CTA />
+        <Achievement />
+        <Courses />
       </span>
     </div>
   )

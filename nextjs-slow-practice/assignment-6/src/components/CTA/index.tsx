@@ -20,7 +20,9 @@ const CTA = () => {
             <h1>Explore Courses by Category</h1>
             <p>Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
             <span
-                className="grid grid-cols-5 gap-4"
+                // className="grid grid-cols-5 gap-4"
+                // className="grid grid-cols-3 gap-4"
+                className="grid grid-cols-3 gap-4 gap-y-10"
             >
                 {CTAData.map(v => {
                     return (
@@ -49,8 +51,15 @@ const CTA = () => {
                         </div>
                     )
                 })}
-            </span >
-        </div >
+            </span>
+            <div
+                className="flex justify-center my-8"
+            >
+                <button
+                    className="border border-black rounded-lg p-2 py-3"
+                >View All Courses</button>
+            </div>
+        </div>
     )
 }
 
