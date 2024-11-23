@@ -15,16 +15,23 @@ const Affiliation = () => {
             <div>
                 <h1>Trusted by 2000+ companies worldwide.</h1>
             </div>
-            <div className="w-full">
+            <div className="w-full flex justify-center items-center">
                 <Carousel
                     opts={{
                         align: "start",
                     }}
-                    className="w-full max-w-sm"
+                    // className="w-full max-w-sm"
+                    // className="w-full max-w-lg"
+                    // className="w-[100%] max-w-sm"
+                    // className="h-10 w-[100%]"
+                    className="w-[80%]"
                 >
-                    <CarouselContent>
+                    <CarouselContent
+                        className="w-[100%]"
+                    >
                         {Array.from({ length: 5 }).map((_, index) => (
-                            <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                            // <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+                            <CarouselItem key={index} className="basis-1/5">
                                 <div className="p-1">
                                     {/* <Card> */}
                                     <CardContent className="flex aspect-square items-center justify-center p-6">
