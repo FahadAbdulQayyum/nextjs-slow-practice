@@ -10,6 +10,9 @@ const CTA = () => {
         { logo: 'microphone.svg', h1: 'Communication', p: '50+ Courses Available' },
         { logo: 'group.svg', h1: 'Digital Marketing', p: '50+ Courses Available' },
         { logo: 'arrow-2.svg', h1: 'Self Development', p: '50+ Courses Available' },
+        { logo: 'briefcase.svg', h1: 'Business', p: '50+ Courses Available' },
+        { logo: 'book.svg', h1: 'Finance', p: '50+ Courses Available' },
+        { logo: 'book1.svg', h1: 'Consulting', p: '50+ Courses Available' },
     ]
 
     return (
