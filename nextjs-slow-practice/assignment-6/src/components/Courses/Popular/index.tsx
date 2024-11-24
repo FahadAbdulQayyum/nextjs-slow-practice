@@ -14,35 +14,35 @@ const Popular = () => {
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
         },
         {
-            image: "/image.svg",
+            image: "/Programming.svg",
             imageTitle: "Programming",
             imageRate: "5.0",
             title: "Introduction to Python",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
         },
         {
-            image: "/image.svg",
+            image: "/Business.svg",
             imageTitle: "Business",
             imageRate: "5.0",
             title: "Data Analysis for Beginners",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
         },
         {
-            image: "/image.svg",
+            image: "/Art.svg",
             imageTitle: "Art",
             imageRate: "5.0",
             title: "Art Specialization",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
         },
         {
-            image: "/image.svg",
+            image: "/Law.svg",
             imageTitle: "Law",
             imageRate: 5.0,
             title: "Rule of Law",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros."
         },
         {
-            image: "/image.svg",
+            image: "/Tech.svg",
             imageTitle: "Tech",
             imageRate: "5.0",
             title: "Introduction to webflow",
