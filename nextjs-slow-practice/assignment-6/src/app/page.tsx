@@ -5,6 +5,7 @@ import Courses from '@/components/Courses'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import Team from '@/components/Team'
+import Testimonial from '@/components/Testimonial'
 import UpperNav from '@/components/UpperNav'
 import React from 'react'
 
@@ -21,7 +22,8 @@ const Page = () => {
         <CTA />
         <Achievement />
         <Courses />
-        <Team/>
+        <Team />
+        <Testimonial />
       </span>
     </div>
   )
