@@ -1,7 +1,6 @@
-import { Star, StarIcon } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
-import { BsStar, BsStarFill } from 'react-icons/bs'
+import { BsStarFill } from 'react-icons/bs'
 
 const Popular = () => {
 
@@ -70,9 +69,6 @@ const Popular = () => {
                                 <span
                                     className="flex justify-between items-center space-x-2"
                                 >
-                                    {/* <StarIcon color={"lightgray"} size={15} /> */}
-                                    {/* <Star color={"lightgray"} size={15} /> */}
-                                    {/* <BsStar color={"lightgray"} size={15} /> */}
                                     <BsStarFill color={"lightgray"} size={20} />
                                     <span>{v.imageRate}</span>
                                 </span>
