@@ -15,10 +15,14 @@ const Page = () => {
   return (
     <div>
       <span
-        className="flex flex-col text-base bg-secondary"
+        className="flex flex-col text-base"
       >
-        <UpperNav />
-        <Navbar />
+        <span
+          className="fixed right-0 left-0"
+        >
+          <UpperNav />
+          <Navbar />
+        </span>
         <Hero />
         <Affiliation />
         <CTA />

@@ -4,10 +4,11 @@ import React from 'react'
 const Hero = () => {
     return (
         <div
-            className="flex justify-center items-center bg-white"
+            className="flex flex-col md:flex-row justify-center items-center bg-white mt-14 md:mt-28"
         >
             {/* <div className="ml-standard w-[600px] space-y-4 w-1/2"> */}
-            <div className="ml-standard space-y-4 w-1/2">
+            {/* <div className="ml-standard space-y-4 w-1/2"> */}
+            <div className="md:ml-standard space-y-4 w-1/2">
                 <h1
                     className="text-black text-6xl font-bold w-[500px]"
                 >Learn new skills online with ease</h1>
@@ -15,7 +16,10 @@ const Hero = () => {
                     className="text-black w-[500px] text-base"
                 >Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
                 <div
-                    className="space-x-2"
+                    // className="space-y-2 md:space-x-2 flex flex-col md:flex-row"
+                    // className="space-x-0 space-y-2 md:space-x-2 flex flex-col md:flex-row"
+                    // className="space-x-0 md:space-x-0 flex flex-col md:flex-row"
+                    className="space-x-2 flex flex-row "
                 >
                     <button
                         className="bg-black text-white p-2 rounded-lg"
@@ -25,7 +29,7 @@ const Hero = () => {
                     >Explore Courses</button>
                 </div>
             </div>
-            <div className="w-1/2">
+            <div className="w-1/2 mt-10">
                 <Image src={"/images/hero.svg"} width="900" height="900" alt="hero" />
             </div>
         </div >

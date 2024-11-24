@@ -4,7 +4,7 @@ import Popular from "./Popular"
 const Courses = () => {
     return (
         <div
-            className="flex flex-col justify-center items-center px-standard my-20"
+            className="flex flex-col justify-center items-center px-standard my-20 space-y-5"
         >
             <h1
                 className="text-3xl font-bold"
@@ -16,7 +16,7 @@ const Courses = () => {
                 className="flex justify-between w-[100%]"
             >
                 {/* <Tabs defaultValue="account" className="w-[400px]"> */}
-                <Tabs defaultValue="account" className="w-[100%]">
+                <Tabs defaultValue="account" className="w-[100%] flex flex-col justify-center items-center">
                     <TabsList>
                         <TabsTrigger value="popular">Popular</TabsTrigger>
                         <TabsTrigger value="recommended">Recommended</TabsTrigger>
@@ -25,7 +25,7 @@ const Courses = () => {
                     <TabsContent value="popular">
                         <Popular />
                     </TabsContent>
-                    <TabsContent value="recommended">Change your password here.</TabsContent>
+                    <TabsContent value="recommended">Recommended.</TabsContent>
                     <TabsContent value="bestprice">Best Price.</TabsContent>
                 </Tabs>
 

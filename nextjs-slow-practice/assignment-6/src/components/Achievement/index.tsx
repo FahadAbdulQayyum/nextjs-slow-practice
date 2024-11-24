@@ -25,7 +25,7 @@ const Achievement = () => {
         <div
             // className="flex flex-col justify-center items-center"
             // className="flex flex-col justify-center items-center px-standard"
-            className="flex flex-col justify-center items-center px-standard my-20"
+            className="flex flex-col justify-center items-center px-standard my-20 space-y-8"
         >
             <h1
                 className="text-3xl font-bold"

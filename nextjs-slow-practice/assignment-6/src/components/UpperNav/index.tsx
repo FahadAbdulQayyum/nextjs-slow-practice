@@ -7,7 +7,7 @@ import { FiTwitter } from 'react-icons/fi'
 const UpperNav = () => {
     return (
         <div
-            className="flex justify-between items-center px-standard bg-primary text-black mb-5 border border-b-2 border-black py-2"
+            className="hidden md:flex justify-between items-center px-standard bg-primary text-black mb-5 border border-b-2 border-black py-2"
         >
             <div
                 className="flex"

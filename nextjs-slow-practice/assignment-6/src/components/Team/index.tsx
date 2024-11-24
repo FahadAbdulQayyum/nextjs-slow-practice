@@ -21,7 +21,7 @@ const Team = () => {
             className="flex flex-col justify-center bg-primary py-10"
         >
             <span
-                className="flex flex-col justify-center items-center"
+                className="flex flex-col justify-center items-center space-y-5 mb-10"
             >
                 <h1
                     className="text-3xl font-bold"

@@ -4,7 +4,7 @@ import React from 'react'
 const Navbar = () => {
     return (
         <div
-            className="flex px-standard justify-between bg-primary text-black py-2 border-b-4 border-gray-400"
+            className="flex px-standard justify-between bg-white md:bg-primary text-black py-2 border-b-4 border-gray-400"
         >
             <div>
                 <Image src={"/images/dsgnrlogo.svg"}
@@ -17,7 +17,7 @@ const Navbar = () => {
             <div
                 // className="space-x-3"
                 // className="flex justify-center"
-                className="flex items-center "
+                className="hidden md:flex items-center "
             >
                 <div
                     className="flex bg-gray-200"
