@@ -4,6 +4,7 @@ import CTA from '@/components/CTA'
 import Courses from '@/components/Courses'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
+import Newsletter from '@/components/Newsletter'
 import Team from '@/components/Team'
 import Testimonial from '@/components/Testimonial'
 import UpperNav from '@/components/UpperNav'
@@ -24,6 +25,7 @@ const Page = () => {
         <Courses />
         <Team />
         <Testimonial />
+        <Newsletter />
       </span>
     </div>
   )

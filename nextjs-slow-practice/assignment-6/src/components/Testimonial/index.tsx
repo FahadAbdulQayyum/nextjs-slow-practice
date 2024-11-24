@@ -11,17 +11,38 @@ import { BsSkipStartFill, BsStar, BsStarFill } from "react-icons/bs";
 
 const Testimonial = () => {
     const testimonialInfo = [
-        { desc: "Lorem ipsum dolor0", img: 'james.svg', name: 'James Nduku0', dept: 'Software Developer0' },
-        { desc: "Lorem ipsum dolor1", img: 'james.svg', name: 'James Nduku1', dept: 'Software Developer1' },
-        { desc: "Lorem ipsum dolor2", img: 'james.svg', name: 'James Nduku2', dept: 'Software Developer2' },
+        {
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendisse varius enim in eros elementum tristique.Duis cursus, mi quis viverra ornare.",
+            img: 'joseph1.svg',
+            name: 'James Nduku',
+            dept: 'Software Developer'
+        },
+        {
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendisse varius enim in eros elementum tristique.Duis cursus, mi quis viverra ornare.",
+            img: 'james.svg',
+            name: 'Erick Kipkemboi',
+            dept: 'Scrum Master'
+        },
+        {
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendisse varius enim in eros elementum tristique.Duis cursus, mi quis viverra ornare.",
+            img: 'john.svg',
+            name: 'Stephen Kerubo',
+            dept: 'UI/UX Designer'
+        },
+        {
+            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Suspendisse varius enim in eros elementum tristique.Duis cursus, mi quis viverra ornare.",
+            img: 'joseph.svg',
+            name: 'John Leboo',
+            dept: 'President of Sale'
+        },
     ];
     return (
-        <div className="flex flex-col ">
+        <div className="flex flex-col my-10 bg-primary py-5 px-standard">
             <span
-                className="flex flex-col justify-start items-start"
+                className="flex flex-col justify-start items-start space-y-5 mb-5"
             >
                 <h1
-                    className="text-3xl font-bold"
+                    className="text-5xl font-bold"
                 >Customer testimonials</h1>
                 <p
                     className="text-base"
@@ -45,7 +66,7 @@ const Testimonial = () => {
                                             className="flex flex-col border border-black p-6 space-y-6"
                                         >
                                             <span
-                                                className="flex"
+                                                className="flex space-x-[2px]"
                                             >
                                                 <BsStarFill color="black" />
                                                 <BsStarFill color="black" />
