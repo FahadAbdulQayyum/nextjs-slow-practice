@@ -24,9 +24,10 @@ const CTA = () => {
                 // className="grid grid-cols-3 gap-4"
                 className="grid grid-cols-3 gap-4 gap-y-10"
             >
-                {CTAData.map(v => {
+                {CTAData.map((v, i) => {
                     return (
                         <div
+                            key={i}
                             className="flex justify-start bg-primary h-18"
                         >
                             <div

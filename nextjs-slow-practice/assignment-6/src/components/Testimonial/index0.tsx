@@ -73,8 +73,9 @@ const Testimonial = () => {
                                 <div className="p-1">
                                     {/* <Card> */}
                                     <CardContent className="flex aspect-square items-center justify-center p-6">
-                                        {testimonialInfo.map(v => {
+                                        {testimonialInfo.map((v, i) => {
                                             return <div
+                                                key={i}
                                                 // className="flex flex-col"
                                                 // className="flex flex-col border border-black p-4 space-y-4"
                                                 className="flex flex-col border border-black p-6 space-y-6"

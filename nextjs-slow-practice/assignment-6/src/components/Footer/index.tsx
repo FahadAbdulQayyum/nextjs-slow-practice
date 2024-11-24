@@ -8,7 +8,7 @@ import { FiTwitter } from 'react-icons/fi'
 const Footer = () => {
     return (
         <div
-        className="px-standard"
+            className="px-standard my-10"
         >
             <div
                 className="flex justify-between"
@@ -70,13 +70,13 @@ const Footer = () => {
                 >
                     <p>2023 Ddsgnr. All right reserved.</p>
                     <a
-                    className="underline"
+                        className="underline"
                     >Privacy Policy</a>
                     <a
-                    className="underline"
+                        className="underline"
                     >Terms of Service</a>
                     <a
-                    className="underline"
+                        className="underline"
                     >Cookies Settings</a>
                 </span>
                 <span

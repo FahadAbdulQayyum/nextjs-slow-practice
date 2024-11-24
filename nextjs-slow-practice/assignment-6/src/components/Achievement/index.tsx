@@ -37,9 +37,10 @@ const Achievement = () => {
             // className="w-[100%]"
             >
                 {
-                    achievementScore.map(v => {
+                    achievementScore.map((v, i) => {
                         return (
                             <div
+                                key={i}
                                 className="flex flex-col items-center"
                             >
                                 <h1

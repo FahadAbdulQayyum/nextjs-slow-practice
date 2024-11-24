@@ -3,7 +3,7 @@ import React from 'react'
 const Newsletter = () => {
     return (
         <div
-            className="flex justify-between px-standard"
+            className="flex justify-between px-standard my-10"
         >
             <div>
                 <h1
@@ -25,7 +25,7 @@ const Newsletter = () => {
                     >Subscribe</button>
                 </span>
                 <span
-                    className="text-sm"
+                    className="text-[10px]"
                 >By subscribing you agree to with our <a
                     className="underline"
                 >Privacy Policy</a> </span>

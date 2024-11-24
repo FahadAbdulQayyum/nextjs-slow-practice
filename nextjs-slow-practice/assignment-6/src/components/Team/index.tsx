@@ -18,7 +18,7 @@ const Team = () => {
             // className="flex flex-col justify-center items-center px-standard"
             // className="flex flex-col items-center px-standard"
             // className="flex flex-col items-center"
-            className="flex flex-col justify-center"
+            className="flex flex-col justify-center bg-primary py-10"
         >
             <span
                 className="flex flex-col justify-center items-center"
@@ -33,8 +33,9 @@ const Team = () => {
             <span
                 className="grid grid-cols-3 gap-4 gap-y-10"
             >
-                {teamInfo.map(v => {
+                {teamInfo.map((v, i) => {
                     return <div
+                        key={i}
                         className="flex flex-col justify-center items-center space-y-4"
                     >
                         <Image src={"/images/Teams/" + v.image} alt={v.image} width={100} height={100} />

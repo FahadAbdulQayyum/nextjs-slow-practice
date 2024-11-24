@@ -37,7 +37,8 @@ const Testimonial = () => {
         },
     ];
     return (
-        <div className="flex flex-col my-10 bg-primary py-5 px-standard">
+        // <div className="flex flex-col my-10 bg-primary py-5 px-standard">
+        <div className="flex flex-col bg-primary py-5 px-standard">
             <span
                 className="flex flex-col justify-start items-start space-y-5 mb-5"
             >
@@ -59,7 +60,7 @@ const Testimonial = () => {
                         className="w-[100%]"
                     >
                         {Array.from({ length: 5 }).map((_, index) => (
-                            <CarouselItem key={index + index} className="md:basis-1/2 lg:basis-1/3">
+                            <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
                                 <div className="p-1">
                                     <CardContent className="flex aspect-square items-center justify-center p-6">
                                         <div
@@ -87,7 +88,10 @@ const Testimonial = () => {
                                                 >
                                                     <Image
                                                         className="rounded-full"
-                                                        src={'/images/Teams/' + testimonialInfo[index]?.img} alt={testimonialInfo[index]?.img} width={50} height={50} />
+                                                        src={'/images/Teams/' + testimonialInfo[index]?.img}
+                                                        alt={testimonialInfo[index]?.img}
+                                                        width={50}
+                                                        height={50} />
                                                 </span>
                                                 <span
                                                     className="ml-4"
