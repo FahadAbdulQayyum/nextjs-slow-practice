@@ -2,6 +2,7 @@ import Achievement from '@/components/Achievement'
 import Affiliation from '@/components/Affiliation'
 import CTA from '@/components/CTA'
 import Courses from '@/components/Courses'
+import Footer from '@/components/Footer'
 import Hero from '@/components/Hero'
 import Navbar from '@/components/Navbar'
 import Newsletter from '@/components/Newsletter'
@@ -26,6 +27,7 @@ const Page = () => {
         <Team />
         <Testimonial />
         <Newsletter />
+        <Footer />
       </span>
     </div>
   )
