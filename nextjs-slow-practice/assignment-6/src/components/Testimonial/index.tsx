@@ -12,34 +12,40 @@ import { BsSkipStartFill, BsStar, BsStarFill } from "react-icons/bs";
 const Testimonial = () => {
     // const testimonialInfo = ["carousel1.svg", "carousel2.svg", "carousel3.svg", "carousel5.svg", "carousel6.svg", "carousel7.svg"];
     const testimonialInfo = [
-        {
-            stars: "5",
-            name: "James Nduku",
-            desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
-            image: "james.svg",
-            dept: "Software Developer"
-        },
-        // {
-        //     stars: "5",
-        //     name: "Erick Kipkemboi",
-        //     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
-        //     image: "Erick.svg",
-        //     dept: "Scrum Master"
-        // },
-        // {
-        //     stars: "5",
-        //     name: "Stephen Kerubo",
-        //     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
-        //     image: "stephen.svg",
-        //     dept: "UI/UX Designer"
-        // },
-        // {
-        //     stars: "5",
-        //     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
-        //     image: "james.svg",
-        //     dept: "Software Developer"
-        // },
+        ["Lorem ipsum dolor", "james.svg", "James Nduku", "Software Developer"],
+        ["Lorem ipsum dolor", "james.svg", "James Nduku", "Software Developer"],
+        ["Lorem ipsum dolor", "james.svg", "James Nduku", "Software Developer"],
     ];
+    // const testimonialInfo = [
+    //     {
+    //         stars: "5",
+    //         name: "James Nduku",
+    //         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+    //         image: "james.svg",
+    //         dept: "Software Developer"
+    //     },
+    // {
+    //     stars: "5",
+    //     name: "Erick Kipkemboi",
+    //     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+    //     image: "Erick.svg",
+    //     dept: "Scrum Master"
+    // },
+    // {
+    //     stars: "5",
+    //     name: "Stephen Kerubo",
+    //     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+    //     image: "stephen.svg",
+    //     dept: "UI/UX Designer"
+    // },
+    // {
+    //     stars: "5",
+    //     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.",
+    //     image: "james.svg",
+    //     dept: "Software Developer"
+    // },
+    // ];
+
     return (
         // <div className="flex justify-center items-center px-4">
         <div className="flex flex-col ">
@@ -71,53 +77,55 @@ const Testimonial = () => {
                                 <div className="p-1">
                                     {/* <Card> */}
                                     <CardContent className="flex aspect-square items-center justify-center p-6">
-                                        {testimonialInfo.map(v => {
-                                            return <div
-                                                // className="flex flex-col"
-                                                // className="flex flex-col border border-black p-4 space-y-4"
-                                                className="flex flex-col border border-black p-6 space-y-6"
+                                        {/* {testimonialInfo.map(v => {
+                                            return  */}
+                                        <div
+                                            // className="flex flex-col"
+                                            // className="flex flex-col border border-black p-4 space-y-4"
+                                            className="flex flex-col border border-black p-6 space-y-6"
+                                        >
+                                            <span
+                                                className="flex"
+                                            >
+                                                <BsStarFill color="black" />
+                                                <BsStarFill color="black" />
+                                                <BsStarFill color="black" />
+                                                <BsStarFill color="black" />
+                                                <BsStarFill color="black" />
+                                            </span>
+                                            <span>
+                                                <p>
+                                                    {"\"" + testimonialInfo[index][0] + "\""}
+                                                    {/* "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare." */}
+                                                </p>
+                                            </span>
+                                            <span
+                                                // className="flex items-center justify-between"
+                                                className="flex items-center"
                                             >
                                                 <span
-                                                    className="flex"
+                                                    className="rounded-full"
                                                 >
-                                                    <BsStarFill color="black" />
-                                                    <BsStarFill color="black" />
-                                                    <BsStarFill color="black" />
-                                                    <BsStarFill color="black" />
-                                                    <BsStarFill color="black" />
-                                                </span>
-                                                <span>
-                                                    <p>
-                                                        {"\"" + v.desc + "\""}
-                                                        {/* "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare." */}
-                                                    </p>
+                                                    {/* <Image src={'/images/' + testimonialInfo[index + 1]} alt="logo" width={100} height={100} /> */}
+                                                    <Image
+                                                        className="rounded-full"
+                                                        // src={'/images/Teams/' + v.image} alt={v.image} width={50} height={50} />
+                                                        src={'/images/Teams/' + testimonialInfo[index][1]} alt={testimonialInfo[index][1]} width={50} height={50} />
                                                 </span>
                                                 <span
-                                                    // className="flex items-center justify-between"
-                                                    className="flex items-center"
+                                                    className="ml-4"
                                                 >
-                                                    <span
-                                                        className="rounded-full"
-                                                    >
-                                                        {/* <Image src={'/images/' + testimonialInfo[index + 1]} alt="logo" width={100} height={100} /> */}
-                                                        <Image
-                                                            className="rounded-full"
-                                                            src={'/images/Teams/' + v.image} alt={v.image} width={50} height={50} />
-                                                    </span>
-                                                    <span
-                                                        className="ml-4"
-                                                    >
-                                                        <h1
-                                                            className="font-bold text-sm"
-                                                        >{v.name}</h1>
-                                                        <p
-                                                            className="text-sm"
-                                                        >{v.dept}</p>
-                                                    </span>
-
+                                                    <h1
+                                                        className="font-bold text-sm"
+                                                    >{testimonialInfo[index][2]}</h1>
+                                                    <p
+                                                        className="text-sm"
+                                                    >{testimonialInfo[index][3]}</p>
                                                 </span>
-                                            </div>
-                                        })}
+
+                                            </span>
+                                        </div>
+                                        {/* })} */}
                                     </CardContent>
                                     {/* </Card> */}
                                 </div>
