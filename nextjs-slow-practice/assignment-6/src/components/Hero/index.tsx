@@ -8,9 +8,12 @@ const Hero = () => {
         >
             {/* <div className="ml-standard w-[600px] space-y-4 w-1/2"> */}
             {/* <div className="ml-standard space-y-4 w-1/2"> */}
-            <div className="md:ml-standard space-y-4 w-1/2">
+            {/* <div className="ml-0 md:ml-standard space-y-4 md:w-1/2"> */}
+            <div className="ml-0 md:ml-standard space-y-4 w-[94%] md:w-1/2">
+                {/* <div className="ml-0 md:ml-standard space-y-4 w-1/2 bg-orange-400"> */}
                 <h1
                     className="text-black text-6xl font-bold w-[500px]"
+                // className="text-black text-6xl font-bold w-[800px] md:w-[500px]"
                 >Learn new skills online with ease</h1>
                 <p
                     className="text-black w-[500px] text-base"
@@ -29,8 +32,10 @@ const Hero = () => {
                     >Explore Courses</button>
                 </div>
             </div>
-            <div className="w-1/2 mt-10">
-                <Image src={"/images/hero.svg"} width="900" height="900" alt="hero" />
+            <div className="w-1/2 mt-10 md:mt-2">
+                <Image
+                    // className="w-80"
+                    src={"/images/hero.svg"} width="900" height="900" alt="hero" />
             </div>
         </div >
     )

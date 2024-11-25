@@ -17,12 +17,21 @@ const CTA = () => {
 
     return (
         <div>
-            <h1>Explore Courses by Category</h1>
-            <p>Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
+            <span
+                className="flex flex-col justify-center items-center space-y-4 mb-5"
+            >
+                <h1
+                    className="text-4xl font-bold"
+                >Explore Courses by Category</h1>
+                <p
+                    className="text-sm"
+                >Discover a wide range of courses covering a variety of subjects, taught by expert instructors.</p>
+            </span>
             <span
                 // className="grid grid-cols-5 gap-4"
                 // className="grid grid-cols-3 gap-4"
-                className="grid grid-cols-3 gap-4 gap-y-10"
+                // className="grid grid-cols-3 gap-4 gap-y-10"
+                className="grid grid-cols-1 md:grid-cols-3 gap-4 gap-y-10 mx-standard md:mx-0"
             >
                 {CTAData.map((v, i) => {
                     return (

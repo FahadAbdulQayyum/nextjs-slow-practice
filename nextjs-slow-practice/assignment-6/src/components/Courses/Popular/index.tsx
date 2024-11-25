@@ -52,12 +52,12 @@ const Popular = () => {
     return (
         <div>
             <div
-                className="grid grid-cols-3 gap-8"
+                className="grid grid-cols-1 md:grid-cols-3 gap-8"
             >
                 {data.map((v, i) => {
                     return <div
-                    key={i}
-                    className="flex justify-center flex-col bg-primary">
+                        key={i}
+                        className="flex justify-center flex-col bg-primary">
                         <Image src={"/images/Courses/" + v.image} alt={v.image} width={500} height={500} />
                         <span
                             className="p-5"

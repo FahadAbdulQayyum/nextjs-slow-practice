@@ -3,7 +3,8 @@ import React from 'react'
 const Newsletter = () => {
     return (
         <div
-            className="flex justify-between px-standard my-10"
+            // className="flex justify-between px-standard my-10"
+            className="flex flex-col  justify-between px-standard my-10"
         >
             <div>
                 <h1

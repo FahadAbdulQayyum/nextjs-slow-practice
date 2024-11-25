@@ -31,9 +31,11 @@ const Achievement = () => {
                 className="text-3xl font-bold"
             >Our Achievements</h1>
             <p
+                className="text-center"
             >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
             <span
-                className="flex justify-between w-[100%]"
+                // className="flex justify-between w-[100%]"
+                className="grid grid-cols-2 gap-10 md:grid-cols-4 w-[100%]"
             // className="w-[100%]"
             >
                 {

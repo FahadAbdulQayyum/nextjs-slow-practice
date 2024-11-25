@@ -31,7 +31,8 @@ const Team = () => {
                 >Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </span>
             <span
-                className="grid grid-cols-3 gap-4 gap-y-10"
+                // className="grid grid-cols-3 gap-4 gap-y-10"
+                className="grid grid-cols-1 md:grid-cols-3 gap-4 gap-y-10"
             >
                 {teamInfo.map((v, i) => {
                     return <div
