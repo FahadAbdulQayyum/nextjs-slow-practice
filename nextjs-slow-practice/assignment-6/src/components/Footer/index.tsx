@@ -8,20 +8,24 @@ import { FiTwitter } from 'react-icons/fi'
 const Footer = () => {
     return (
         <div
-            className="px-standard my-10"
+            className="md:px-standard my-10"
         >
             <div
-                className="flex justify-between"
+                className="flex flex-col md:flex-row md:justify-between items-center md:items-start space-y-6"
             >
-                <span>
+                <span
+                    className="-ml-14 md:-ml-0"
+                >
                     <Image src={"/images/dsgnrlogo.svg"} alt="logo" width={100} height={100} />
                 </span>
-                <span>
+                <span
+                    className="-ml-14 md:-ml-0"
+                >
                     <h1
-                        className="font-bold"
+                        className="font-bold py-2"
                     >Courses</h1>
                     <ul
-                        className="space-y-4 mt-4"
+                        className="space-y-2 md:space-y-4 md:mt-4"
                     >
                         <li>Business</li>
                         <li>Development</li>
@@ -32,10 +36,10 @@ const Footer = () => {
                 </span>
                 <span>
                     <h1
-                        className="font-bold"
+                        className="font-bold py-2"
                     >Resources</h1>
                     <ul
-                        className="space-y-4 mt-4"
+                        className="space-y-2 md:space-y-4 md:mt-4"
                     >
                         <li>Career</li>
                         <li>Resume</li>
@@ -46,10 +50,10 @@ const Footer = () => {
                 </span>
                 <span>
                     <h1
-                        className="font-bold"
+                        className="font-bold py-2"
                     >About Us</h1>
                     <ul
-                        className="space-y-4 mt-4"
+                        className="space-y-2 md:space-y-4 md:mt-4"
                     >
                         <li>Contact</li>
                         <li>Help/Support</li>
@@ -63,21 +67,25 @@ const Footer = () => {
                 className="border border-black my-5"
             ></div>
             <div
-                className="flex justify-between"
+                className="flex flex-col md:flex-row items-center md:items-start justify-between space-y-3 md:space-y-0"
             >
                 <span
-                    className="flex justify-between w-[50%]"
+                    className="flex flex-col md:flex-row justify-between items-center md:items-start space-y-2 md:space-y-0 w-[100%] md:w-[50%]"
                 >
                     <p>2023 Ddsgnr. All right reserved.</p>
-                    <a
-                        className="underline"
-                    >Privacy Policy</a>
-                    <a
-                        className="underline"
-                    >Terms of Service</a>
-                    <a
-                        className="underline"
-                    >Cookies Settings</a>
+                    <span
+                        className="flex justify-between space-x-5"
+                    >
+                        <a
+                            className="underline"
+                        >Privacy Policy</a>
+                        <a
+                            className="underline"
+                        >Terms of Service</a>
+                        <a
+                            className="underline"
+                        >Cookies Settings</a>
+                    </span>
                 </span>
                 <span
                     className="flex space-x-2"
