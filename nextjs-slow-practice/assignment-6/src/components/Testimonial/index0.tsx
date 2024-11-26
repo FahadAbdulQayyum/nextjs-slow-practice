@@ -5,9 +5,9 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel"
-import { Card, CardContent } from "@/components/ui/card"
+import { CardContent } from "@/components/ui/card"
 import Image from "next/image"
-import { BsSkipStartFill, BsStar, BsStarFill } from "react-icons/bs";
+import { BsStarFill } from "react-icons/bs";
 
 const Testimonial = () => {
     // const testimonialInfo = ["carousel1.svg", "carousel2.svg", "carousel3.svg", "carousel5.svg", "carousel6.svg", "carousel7.svg"];
