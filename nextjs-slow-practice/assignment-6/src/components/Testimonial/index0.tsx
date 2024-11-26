@@ -16,6 +16,7 @@ const Testimonial = () => {
     //     ["James Nduku", "Lorem ipsum dolor", "james.svg", "Software Developer"],
     //     ["James Nduku", "Lorem ipsum dolor", "james.svg", "Software Developer"],
     // ];
+    //
     const testimonialInfo = [
         {
             stars: "5",
